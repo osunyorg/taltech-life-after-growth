@@ -13,6 +13,8 @@ en:
     events_categories: /agenda/:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
+    posts: /posts/:year-:month-:day-:slug/
+    posts_categories: /posts/:slug/
   taxonomies:
     administrator: administrators
     author: authors
