@@ -9,10 +9,6 @@ items:
   target: "/summer-school/"
   kind: page
   children: []
-- title: Posts
-  target: "/posts/"
-  kind: page
-  children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
