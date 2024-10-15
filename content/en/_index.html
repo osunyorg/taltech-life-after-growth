@@ -87,10 +87,6 @@ contents:
       self: 2
       children: 3
     data:
-      page:
-        path: "/about/"
-        slug: "about"
-        file: "pages/about/_index.html"
       options:
         image: true
         main_summary: true
@@ -98,6 +94,10 @@ contents:
 
       layout: grid
       pages:
+        - path: "/about/"
+          slug: "about"
+          file: "pages/about/_index.html"
+          external: false
         - path: "/summer-school/"
           slug: "summer-school"
           file: "pages/summer-school/_index.html"
