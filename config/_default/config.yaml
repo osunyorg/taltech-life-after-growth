@@ -12,4 +12,4 @@ params:
     active: false
   logo:
     header: '/assets/images/logo.svg'
-    footer: '/assets/images/logo.svg'
+    footer: '/assets/images/icon.svg'

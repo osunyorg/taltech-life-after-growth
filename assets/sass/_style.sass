@@ -8,3 +8,24 @@
         figure 
             picture
                 background: none
+#document-header
+    .menu 
+        .nav-level-1 
+            > li 
+                > a,
+                > span
+                    @include body-text
+    .header-button
+        span:first-of-type
+            display: none
+footer#document-footer
+    @include media-breakpoint-up(desktop)
+        .container
+            justify-content: center
+        .footer-legals
+            .footer-credit,
+            .nav-legal li,
+            .nav-legal 
+                display: inline-block
+            .nav-legal li
+                margin-right: $spacing-3
