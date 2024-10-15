@@ -9,6 +9,10 @@ items:
   target: "/posts/"
   kind: page
   children: []
+- title: About
+  target: "/about/"
+  kind: page
+  children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
@@ -23,10 +27,6 @@ items:
   children: []
 - title: Organizations
   target: "/organizations/"
-  kind: page
-  children: []
-- title: About
-  target: "/about/"
   kind: page
   children: []
 
