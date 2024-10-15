@@ -9,4 +9,8 @@ items:
   target: "/summer-school/"
   kind: page
   children: []
+- title: Projects
+  target: "/projects/"
+  kind: page
+  children: []
 
