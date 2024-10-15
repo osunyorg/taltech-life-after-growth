@@ -21,4 +21,8 @@ items:
   target: "/organizations/"
   kind: page
   children: []
+- title: Summer school
+  target: "/summer-school/"
+  kind: page
+  children: []
 
