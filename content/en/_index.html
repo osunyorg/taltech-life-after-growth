@@ -82,10 +82,15 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Explore more
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
+      page:
+        path: "/about/"
+        slug: "about"
+        file: "pages/about/_index.html"
       options:
         image: true
         main_summary: true
@@ -93,6 +98,14 @@ contents:
 
       layout: grid
       pages:
+        - path: "/summer-school/"
+          slug: "summer-school"
+          file: "pages/summer-school/_index.html"
+          external: false
+        - path: "/posts/"
+          slug: "posts"
+          file: "posts/_index.html"
+          external: false
 
 
 
