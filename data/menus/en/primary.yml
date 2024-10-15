@@ -9,12 +9,4 @@ items:
   target: "/summer-school/"
   kind: page
   children: []
-- title: People
-  target: "/people/"
-  kind: page
-  children: []
-- title: Organizations
-  target: "/organizations/"
-  kind: page
-  children: []
 
