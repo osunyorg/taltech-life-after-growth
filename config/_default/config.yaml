@@ -4,10 +4,12 @@ removePathAccents: true
 pagination:
   pagerSize: 30
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
     active: false
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo.svg'
+    footer: '/assets/images/logo.svg'
