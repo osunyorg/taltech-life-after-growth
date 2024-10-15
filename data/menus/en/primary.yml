@@ -21,8 +21,8 @@ items:
   target: "/projects/"
   kind: page
   children: []
-- title: Team
-  target: "/team/"
+- title: People
+  target: "/people/"
   kind: page
   children: []
 - title: Organizations
