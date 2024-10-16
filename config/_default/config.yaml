@@ -11,5 +11,5 @@ params:
   search:
     active: false
   logo:
-    header: '/assets/images/logo.svg'
-    footer: '/assets/images/icon.svg'
+    header: '/assets/images/logo-v2.svg'
+    footer: '/assets/images/icon-v2.svg'
