@@ -1,8 +1,15 @@
 .hero
     .content
+        @include media-breakpoint-up(desktop)
+            align-items: center
+            .hero-text
+                margin-top: 0
         figure
             img
+                aspect-ratio: 1
+                border-radius: 100%
                 mix-blend-mode: overlay
+                object-fit: cover
             figcaption
                 &::before,
                 .credit
