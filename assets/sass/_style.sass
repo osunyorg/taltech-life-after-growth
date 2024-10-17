@@ -1,31 +1,38 @@
+@include media-breakpoint-up(desktop)
+    #document-header
+        backdrop-filter: blur(12px)
 .hero
     .content
-        @include media-breakpoint-up(desktop)
-            align-items: center
-            .hero-text
-                justify-content: center
-                margin-top: 0
-            figure
-                width: columns(4)
         figure
-            margin-left: 0
-            margin-right: 0
-            @include media-breakpoint-down(desktop)
-                padding-bottom: $spacing-5
-                img
-                    margin-left: auto
-                    width: columns(8)
             img
-                aspect-ratio: 1
-                border-radius: 100%
                 mix-blend-mode: overlay
-                object-fit: cover
+                mask-image: linear-gradient(to right, transparent 0%, black 40%)
             figcaption
-                background: none
                 &::before,
                 .credit
                     color: $color-text
                     background: none
+        @include media-breakpoint-up(desktop)
+            align-items: center
+            min-height: 70vh
+            figure
+                bottom: 0
+                position: absolute
+                right: 0
+                top: 0
+                width: 50vw
+                picture
+                    height: 100%
+                    width: 100%
+                    img
+                        height: 100%
+                        object-fit: cover
+                        width: 100%
+                figcaption
+                    margin-right: $grid-gutter
+            .hero-text
+                justify-content: center
+                margin-top: 0
 .persons__page 
     .hero--with-image 
         figure 
