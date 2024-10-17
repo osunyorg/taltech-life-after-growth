@@ -6,7 +6,9 @@
         figure
             img
                 mix-blend-mode: overlay
-                mask-image: linear-gradient(to right, transparent 0%, black 40%)
+                mask-image: linear-gradient(to bottom, transparent 0%, black 40%)
+                @include media-breakpoint-up(desktop)
+                    mask-image: linear-gradient(to right, transparent 0%, black 20%)
             figcaption
                 &::before,
                 .credit
