@@ -5,12 +5,12 @@ items:
   target: "/about/"
   kind: page
   children:
-  - title: 'Projects '
-    target: "/projects/"
-    kind: page
-    children: []
   - title: Overview
     target: "/about/"
+    kind: page
+    children: []
+  - title: 'Projects '
+    target: "/projects/"
     kind: page
     children: []
 - title: Summer school
