@@ -19,6 +19,7 @@ en:
     organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
+    authors: /people/:slug/stories/
   taxonomies:
     administrator: administrators
     author: authors
