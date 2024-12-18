@@ -4,16 +4,19 @@ items:
 - title: Research
   target: "/about/"
   kind: page
+  new_tab: false
   children:
   - title: Overview
     target: "/about/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/about"
     file: content/en/pages/about/_index.html
   - title: 'Projects '
     target: "/projects/"
     kind: page
+    new_tab: false
     children: []
     path: "/projects"
     file: content/en/projects/_index.html
@@ -22,12 +25,14 @@ items:
 - title: Summer school
   target: "/summer-school/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/summer-school"
   file: content/en/pages/summer-school/_index.html
 - title: Stories
   target: "/stories/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
