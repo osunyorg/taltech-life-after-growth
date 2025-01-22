@@ -1,15 +1,20 @@
 theme: osuny
-enableRobotsTXT: true
-removePathAccents: true
-pagination:
-  pagerSize: 30
+_merge: deep
 params:
   breadcrumb:
-    position: after-hero
+    position: hero-end
   summary:
-    position: hero
+    position: content
   search:
     active: false
   logo:
     header: '/assets/images/logo-v2.svg'
     footer: '/assets/images/icon-v2.svg'
+  menu:
+    primary:
+      level_2:
+        title:
+          active: true
+  projects:
+    index:
+      layout: list

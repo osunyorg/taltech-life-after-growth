@@ -1,0 +1,31 @@
+body:not(.persons__page)
+    .hero
+        .content
+            h1
+                span
+                    font-style: italic
+                    color: $color-text
+                    line-height: 120%
+                    @include media-breakpoint-up(desktop)
+                        font-size: pxToRem(40)
+            figure
+                img
+                    mix-blend-mode: overlay
+                    mask-image: linear-gradient(to bottom, transparent 0%, black 40%)
+                    @include media-breakpoint-up(desktop)
+                        mask-image: linear-gradient(to right, transparent 0%, black 20%)
+                figcaption
+                    &::before,
+                    .credit
+                        color: $color-text
+                        background: none
+            @include media-breakpoint-up(desktop)
+                align-items: center
+                min-height: 40vh
+                figure
+                    bottom: 0
+                    position: absolute
+                    right: 0
+                    width: 50vw
+                    figcaption
+                        margin-right: $grid-gutter

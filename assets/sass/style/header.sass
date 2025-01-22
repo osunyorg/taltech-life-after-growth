@@ -1,0 +1,12 @@
+#document-header
+    @include media-breakpoint-up(desktop)
+        backdrop-filter: blur(12px)
+    .menu 
+        .nav-level-1 
+            > li 
+                > a,
+                > span
+                    @include body-text
+    .header-button
+        span:first-of-type
+            display: none

@@ -1,0 +1,20 @@
+.projects__section,
+.projects_categories__term
+    .projects--list
+        .project
+            align-items: end
+.project-categories
+    a
+        background: $color-gradient
+        color: $color-text !important
+        padding: space(1) space(3)
+        text-decoration-line: none !important
+        border-radius: 3px
+.project
+    .project-content 
+        .project-subtitle
+            @include media-breakpoint-up(desktop)
+                color: $color-text !important
+                font-size: pxToRem(32) !important
+                font-style: italic !important
+                margin-bottom: $spacing-2
