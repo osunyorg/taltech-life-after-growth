@@ -22,6 +22,7 @@ en:
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
     authors: /people/:slug/stories/
+    researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors

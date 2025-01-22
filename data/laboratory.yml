@@ -1,0 +1,29 @@
+---
+name: >-
+  Life after growth
+contact_details:
+  postal_address:
+    data:
+      address_name: >-
+        
+      address: >-
+        Ehitajate tee 5
+      address_additional: >-
+        
+      zipcode: >-
+        19086
+      city: >-
+        Tallinn
+      country:
+        name: >-
+          Estonia
+        alpha2: >-
+          EE
+        alpha3: >-
+          EST
+    text: >-
+      Ehitajate tee 5 19086 Tallinn ESTONIA
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Ehitajate tee 5</span> <span itemprop="postalCode">19086</span> <span itemprop="addressLocality">Tallinn</span> <span itemprop="addressCountry">ESTONIA</span></address>
+
+---
