@@ -1,12 +1,16 @@
 #document-header
     @include media-breakpoint-up(desktop)
         backdrop-filter: blur(12px)
+        .dropdown-menu
+            top: $header-height-desktop
+            margin-top: -($spacing-1)
     .menu 
         .nav-level-1 
             > li 
                 > a,
                 > span
                     @include body-text
+
     .header-button
         span:first-of-type
             display: none

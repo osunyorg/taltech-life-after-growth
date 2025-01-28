@@ -3,6 +3,12 @@
     .projects--list
         .project
             align-items: end
+            .media
+                @include media-breakpoint-up(desktop)
+                    width: columns(3)
+                img
+                    aspect-ratio: 16/9
+                    object-fit: cover
 .project-categories
     a
         background: $color-gradient

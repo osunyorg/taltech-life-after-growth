@@ -3,3 +3,14 @@
         figure 
             picture
                 background: none
+
+.block-persons--grid
+    .persons
+        @include in-page-with-sidebar
+            @include grid(2, desktop)
+            @include grid(3, xxl)
+            .person
+                .avatar
+                    width: columns(1)
+        @include in-page-without-sidebar
+            @include grid(6, xl)

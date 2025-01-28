@@ -2,3 +2,11 @@
 .organization-logo
         img
             mix-blend-mode: multiply
+
+.block-organizations--grid
+    @include in-page-with-sidebar
+        .organizations
+            @include grid(5)
+        .organization
+            .media
+                width: columns(1.5)

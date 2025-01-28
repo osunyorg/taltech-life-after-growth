@@ -10,11 +10,11 @@ params:
   logo:
     header: '/assets/images/logo-v2.svg'
     footer: '/assets/images/icon-v2.svg'
-  menu:
-    primary:
-      level_2:
-        title:
-          active: true
   projects:
     index:
       layout: list
+  image_sizes:
+    blocks:
+      projects:
+        grid:
+          desktop:  555
