@@ -2,6 +2,11 @@
 
 baseURL: https://www.postgrowth.life
 
+## OSUNY
+osuny:
+  website:
+    id: e3b678a7-031f-4599-a365-2d763aee9006
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
