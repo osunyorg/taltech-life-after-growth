@@ -13,3 +13,100 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/about/index.html"
+to = "/research/"
+
+[[redirects]]
+from = "/posts/index.html"
+to = "/stories/"
+
+[[redirects]]
+from = "/about/publications/index.html"
+to = "/research/publications/"
+
+[[redirects]]
+from = "/stories/summer-school-2024/index.html"
+to = "/stories/summer-school-stories/summer-school-2024/"
+
+[[redirects]]
+from = "/stories/value-and-the-meaning-of-life/index.html"
+to = "/stories/life-after-growth-themes/value-and-the-meaning-of-life/"
+
+[[redirects]]
+from = "/projects/2025-co-production-for-community-resilience/index.html"
+to = "/research/projects/2025-co-production-for-community-resilience/"
+
+[[redirects]]
+from = "/people/alex-pazaitis/posts/index.html"
+to = "/people/alex-pazaitis/stories/"
+
+[[redirects]]
+from = "/team/editors/index.html"
+to = "/people/editors/"
+
+[[redirects]]
+from = "/team/chris-giotitsas/index.html"
+to = "/people/chris-giotitsas/"
+
+[[redirects]]
+from = "/posts/2023-12-04-exploring-the-value-of-life-after-growth/index.html"
+to = "/stories/2023-12-04-exploring-the-value-of-life-after-growth/"
+
+[[redirects]]
+from = "/team/alex-pazaitis/posts/index.html"
+to = "/people/alex-pazaitis/stories/"
+
+[[redirects]]
+from = "/team/index.html"
+to = "/people/"
+
+[[redirects]]
+from = "/projects/2023-koinon/index.html"
+to = "/research/projects/2023-koinon/"
+
+[[redirects]]
+from = "/projects/study/index.html"
+to = "/research/projects/study/"
+
+[[redirects]]
+from = "/projects/2025-exploring-sufficiency-ethics-in-commoning-organizations/index.html"
+to = "/research/projects/2025-exploring-sufficiency-ethics-in-commoning-organizations/"
+
+[[redirects]]
+from = "/posts/2024-10-15-exploring-the-value-of-life-after-growth/index.html"
+to = "/stories/2023-12-04-exploring-the-value-of-life-after-growth/"
+
+[[redirects]]
+from = "/projects/pilot/index.html"
+to = "/research/projects/pilot/"
+
+[[redirects]]
+from = "/posts/2023-07-18-the-value-of-exploitation-how-to-reclaim-our-lives-and-livelihoods-in-common/index.html"
+to = "/stories/2023-07-18-the-value-of-exploitation-how-to-reclaim-our-lives-and-livelihoods-in-common/"
+
+[[redirects]]
+from = "/projects/index.html"
+to = "/research/projects/"
+
+[[redirects]]
+from = "/projects/outreach/index.html"
+to = "/research/projects/outreach/"
+
+[[redirects]]
+from = "/agenda/2024-09-01-summer-school-2024/index.html"
+to = "/agenda/2024/summer-school-2024/"
+
+[[redirects]]
+from = "/stories/2025-03-28-prefiguring-emergent-futures-in-learning-practice/index.html"
+to = "/stories/2024-12-27-prefiguring-emergent-futures-in-learning-practice/"
+
+[[redirects]]
+from = "/team/alex-pazaitis/index.html"
+to = "/people/alex-pazaitis/"
+
+[[redirects]]
+from = "/projects/2024-exploring-patterns-of-open-cooperativism-in-europe/index.html"
+to = "/research/projects/2024-exploring-patterns-of-open-cooperativism-in-europe/"
+
